@@ -54,7 +54,7 @@ function toggleReadStatus(book: Book) {
   };
 }
 
-//Problem 6
+//problem 6
 class Person {
   name: string;
   age: number;
@@ -77,7 +77,7 @@ class Student extends Person {
   }
 }
 
-// Problem 7
+//problem 7
 function getIntersection(arr1: number[], arr2: number[]): number[] {
   const result: number[] = [];
 
