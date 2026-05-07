@@ -1,4 +1,5 @@
 //problem 1
+
 function filterEvenNumbers(items: number[]): number[] {
   const arr: number[] = [];
 
@@ -11,17 +12,18 @@ function filterEvenNumbers(items: number[]): number[] {
 }
 
 //problem 2
+
 function reverseString(value: string): string {
   let reversed = "";
 
   for (const reverse of value) {
     reversed = reverse + reversed;
   }
-
   return reversed;
 }
 
 //problem 3
+
 type StringNumber = string | number;
 
 function checkType(value: StringNumber): string {
@@ -33,6 +35,7 @@ function checkType(value: StringNumber): string {
 }
 
 //problem 4
+
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
 }
@@ -51,7 +54,7 @@ function toggleReadStatus(book: Book) {
   };
 }
 
-// Problem 6
+//Problem 6
 class Person {
   name: string;
   age: number;
@@ -61,7 +64,6 @@ class Person {
     this.age = age;
   }
 }
-
 class Student extends Person {
   grade: string;
 
